@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+$Roboto: 'Roboto';
+
+body {
+  font-family: $Roboto;
+}
+
+label, input {
+  float: left;
+  clear: both;
+}
+
+::placeholder {
+  color: #777;
+}
+
+input {
+  font-size: 16px;
+  padding: 7px 14px 8px 14px;
+  display: inline-block;
+}
+
+legend {
+  float: left;
+  padding-bottom: 16px;
+  color: #777;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}

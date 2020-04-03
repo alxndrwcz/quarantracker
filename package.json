@@ -1,0 +1,27 @@
+{
+  "name": "leasey",
+  "version": "1.0.0",
+  "description": "Simple lease tracking web app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alxndrwcz/leasey.git"
+  },
+  "author": "Brian Alexandrowicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alxndrwcz/leasey/issues"
+  },
+  "homepage": "https://github.com/alxndrwcz/leasey#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {}
+}
